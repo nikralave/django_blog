@@ -71,8 +71,8 @@ h1 a {
     
 }
 
-.navbar-right ul li a:hover{
-    background-color: #fbd2ff;
+ul li:hover{
+    background: #fbd2ff;
 }
 
 a,
@@ -80,6 +80,7 @@ a:hover {
     color: #223344;
     text-decoration: none;
 }
+
 
 .icon-bar {
     background-color: #fff;

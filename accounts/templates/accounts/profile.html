@@ -5,5 +5,11 @@
 <p>You are logged in as:</p>
 <p>{{user.username}}</p>
 <p>{{ user.email }}</p>
+ 
+<h3>Liked Posts</h3>
 
+{% for post in user.liked_posts.all %}
+<p><a href='#'>{{ post.title }}</a></p>
+
+{% endfor %}
 {% endblock content %}
